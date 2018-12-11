@@ -13,7 +13,7 @@ resource "docker_container" "ca-sample" {
 }
 
 resource "docker_image" "dummy_image" {
-  name = "busyboqweq:latest"
+  name = "busybox:latest"
 }
 
 resource "random_string" "random_name" {
