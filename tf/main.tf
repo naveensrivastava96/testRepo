@@ -3,7 +3,7 @@ provider "docker"
     
 }
 
-jasldjlsaj8
+
 
 resource "docker_container" "ca-sample" {
   name  = "${random_string.random_name.result}"
