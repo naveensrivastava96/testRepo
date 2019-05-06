@@ -4,8 +4,8 @@ variable "access_key" { default="asddad" }
 variable "secret_key" {default="asdfasdfas"}
  
 provider "aws" {
-    access_key = "${var.aws_access_key}"
-   secret_key = "${var.aws_secret_key}"
+    access_key = "${var.access_key}"
+   secret_key = "${var.secret_key}"
    region     = "ca-central-1"
 } 
 
