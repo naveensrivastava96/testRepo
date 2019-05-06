@@ -1,7 +1,7 @@
 
 
-variable "aws_access_key" { default="asddad" }
-variable "aws_secret_key" {default="asdfasdfas"}
+variable "access_key" { default="asddad" }
+variable "secret_key" {default="asdfasdfas"}
  
 provider "aws" {
     access_key = "${var.aws_access_key}"
