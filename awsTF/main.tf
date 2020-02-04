@@ -17,7 +17,7 @@ Name = "Demo-ENV"
 }
 }
 
-provider "Automic Continuous Delivery" {
+provider "cda" {
 	cda_server = "${var.cda_server}"
 	user       = "${var.cda_user}"
 	password   = "${var.cda_password}"
